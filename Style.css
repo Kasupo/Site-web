@@ -1,0 +1,21 @@
+h1
+{
+    color: brown;
+}
+
+body
+{
+
+   width: 800px;
+   margin:0 auto;
+   background: url(Image/Fonds/Fond1.jpg) no-repeat;
+   background-size: cover;
+   text-align: center;
+   align-content: center;
+   background-size: cover;
+}
+.présentation
+{
+    background-color: white
+}
+

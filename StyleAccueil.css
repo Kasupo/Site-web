@@ -1,0 +1,88 @@
+body{
+    background: url(Image/Fonds/Fond1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    font-family: Arial;
+}
+
+header nav{
+    color: white
+}
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 25%;
+    height: 40px;
+    background-color: rgba(0,0,0,0.8);
+    line-height: 40px;
+    text-align: center;
+}
+header nav ul li a{
+    display: block;
+}
+header nav ul li a:hover{
+    background-color:gray;
+    opacity: 0.5;
+}
+header nav ul li ul li{
+    display: none;
+}
+header nav ul li:hover ul li{
+    display: block;
+    width: 100%;
+}
+
+::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenu {
+    flex: 1 0 auto;
+}
+.contenu p {
+    text-align: justify;
+}
+
+.contenu-footer {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 14px;
+}
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+    position: absolute;
+    bottom: 0px;
+    height: 20%;
+}
+
+img{
+    width: 20px;
+}
+.liste-média li{
+    display: inline;
+}
+    
+.liste-média {
+	float:right;
+	position: relative;
+	bottom: 90px;
+    right: 20px ;
+    list-style: none;
+}
